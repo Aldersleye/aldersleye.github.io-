@@ -1,0 +1,143 @@
+/* stylesheet for wire frame demo */
+*{
+	box-sizing: border-box;
+}
+header {
+	width:1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+.logo {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: auto;
+	max-width: 1000px
+}
+nav {
+	border: 1px solid blue;
+	background-color: lightblue;
+	width: auto;
+	max-width: 1000px
+}
+nav ul{
+	margin: 10px;
+	height: 40px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav a {
+	border: 1px solid green;
+    text-decoration: none;
+    background-color: pink;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: lime;
+}
+.banner_all {
+	overflow: hidden;
+	width:auto;
+	max-width: 1890px;
+	hight: auto;
+	max-height: 500px;
+	align-items: center;
+	margin: 0 auto;
+	position: relative;
+}
+section {
+	width:1000px;
+	margin: 0 auto;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+body{
+	background-color: green;
+}
+.specials {
+    background-color: yellow;
+}
+.specials_2 {
+	display: flex;
+	width: 1000px;
+	padding: 10px;
+	margin: auto;
+	gap: 20px;
+	background-color: yellow;
+}
+.specials_3 {
+	background-color: black;
+	justify-content: flex-end;
+	width: auto;
+	max-width: 1000px
+}
+.specials_4 {
+	display: flex;
+	width: 1000px;
+	padding: 10px;
+	margin: auto;
+	gap: 20px;
+	background-color: orange;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	
+}
+.card {
+	border: 1px solid orange;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+	background-color: lightblue;
+}
+.card img {
+    width: 100%;
+	padding: 10px;
+	justify-content: space-between;
+}
+.news_card {
+	border: 1px solid orange;
+	padding: 10px;
+	margin: auto;
+	width: auto;
+	display: flex;
+	gap: 20px;
+	background-color: lightblue;
+}
+
+footer {
+	padding: 10px 20px;
+	border: 1px solid blue;
+	background-color: lightblue;
+	width: auto;
+}
+.footer-wrap {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+    text-decoration: none;
+	padding: 10px 20px;
+	max-width: 1200px;
+}
+footer a {
+	justify-content: space-between;
+    text-decoration: none;
+	padding: 10px 20px;
+}
+footer a:hover{
+	color: red;
+	padding: 10px 20px;
+}
+form{
+	background-color: orange;
+	width: 270px;
+	font-size: 20px;
+}
